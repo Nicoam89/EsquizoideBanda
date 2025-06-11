@@ -27,7 +27,7 @@ body {
 
 p {
   text-align: justify;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 /* Links */
@@ -138,4 +138,12 @@ footer a {
   max-width: 20rem;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+.letras {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.letras p {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
