@@ -1,0 +1,59 @@
+.main-font {
+  color: whitesmoke;
+}
+
+body {
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.titulos {
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  text-align: justify;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.road-rage-regular {
+  font-family: "Road Rage", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.road-rage-regular a {
+  text-decoration: none;
+}
+.road-rage-regular a:visited {
+  text-decoration: none;
+}
+
+.nosotros {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
