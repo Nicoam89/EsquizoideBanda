@@ -97,9 +97,21 @@ footer a {
 
 /* Formato Header */
 .banner {
+  width: 100%;
+  max-height: 20rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.banner-image {
+  height: auto;
+  display: block;
   -o-object-fit: fill;
   object-fit: fill;
-  height: 12rem;
+  height: 8rem;
   text-align: center;
   background-color: white;
+  border-radius: 0;
 }/*# sourceMappingURL=styles.css.map */
