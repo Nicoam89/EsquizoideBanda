@@ -1,3 +1,5 @@
+/* Formato Main */
+
 .titulos{
     text-align: center;
     font-size: xx-large;
@@ -7,6 +9,8 @@ p{
     text-align: justify;
     font-size: x-large;
 }
+
+/* Links */
 
 a{
     text-decoration: none;
@@ -18,6 +22,11 @@ a:visited{
     text-decoration: none;
 
 }
+
+a:hover {
+  transform: scale(1.2);
+}
+
 
 .road-rage-regular {
   font-family: "Road Rage", sans-serif;
@@ -33,4 +42,12 @@ a:visited{
         text-decoration: none;
 
     }
+}
+
+section{
+    margin-top: 2%;
+}
+
+h1{
+    font-size: xx-large;
 }

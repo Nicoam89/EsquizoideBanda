@@ -1,3 +1,4 @@
+/* Variables */
 .main-font {
   color: whitesmoke;
 }
@@ -9,6 +10,7 @@ body {
   background-position: center;
 }
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ body {
   border-radius: 15px;
 }
 
+/* Formato Main */
 .titulos {
   text-align: center;
   font-size: xx-large;
@@ -27,6 +30,7 @@ p {
   font-size: x-large;
 }
 
+/* Links */
 a {
   text-decoration: none;
   font-size: xx-large;
@@ -34,6 +38,10 @@ a {
 
 a:visited {
   text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.2);
 }
 
 .road-rage-regular {
@@ -50,10 +58,48 @@ a:visited {
   text-decoration: none;
 }
 
+section {
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+/* Formato Home */
 .nosotros {
   text-decoration: none;
 }
 
+/* Formato Footer */
 footer {
   text-align: center;
+  padding-bottom: 5%;
+  margin: 2%;
+}
+footer a {
+  margin: 2%;
+}
+
+/* Formato integrantes */
+.imagen-perfil {
+  padding: 2%;
+  border-radius: 15%;
+}
+
+.contenedor-perfil {
+  padding-bottom: 5%;
+}
+.contenedor-perfil p {
+  text-align: justify;
+  margin: 2%;
+}
+
+/* Formato Header */
+.banner {
+  -o-object-fit: fill;
+  object-fit: fill;
+  height: 12rem;
+  text-align: center;
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
