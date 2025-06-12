@@ -35,6 +35,9 @@ a {
   text-decoration: none;
   font-size: xx-large;
 }
+a h3 {
+  text-decoration: none;
+}
 
 a:visited {
   text-decoration: none;
@@ -121,6 +124,7 @@ footer a {
   justify-content: center;
   background-color: white;
   padding: 20px 0;
+  border-radius: 0%;
 }
 
 .banner-image {
